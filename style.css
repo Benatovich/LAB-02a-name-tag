@@ -6,6 +6,15 @@ section {
     justify-content: center;
 }
 
+changeColor {
+    display: flex;
+    justify-content: center;
+}
+
+#red {
+    margin-left: 57px;
+}
+
 body, html {
     width: 923px;
     height: 491px;
@@ -67,7 +76,7 @@ body, html {
     font-size: 3rem;
 }
 
-.my-name {
+#name-display {
     margin: 0;
     padding: 30px;
     border: 0;
@@ -79,8 +88,6 @@ body, html {
     font-family: 'ephesis', cursive;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    //border-left: 5px solid lightgray;
-    //border-right: 5px solid lightgray;
     border-bottom: 50px solid red;
     font-size: 2rem;
     font-weight: bold;

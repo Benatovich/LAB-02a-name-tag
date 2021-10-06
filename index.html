@@ -17,17 +17,25 @@
 
     <section>
         <input id="name-input">
-        <button id="update-button">Update</button> 
+        <button id="update-button">Update</button>
     </section>
+    
+    <!--change color, add pronouns, change font, track name changes-->
+    <changeColor>
+        Color:  
+        <button id="red-button">Red</button>
+        <button id="blue-button">Blue</button>
+        <button id="green-button">Green</button>
+    </changeColor>
 
     <div class="border">
         <h1 class="primary-header">HELLO</h1>
         <h2 class="secondary-header">my name is</h2>
         <main>
-
-        <p class="my-name">
-           Sam Benatovich
-        </p>   
+            
+            <display id="name-display">
+                Sam Benatovich
+            </display>   
         
         </main>
     </div>
@@ -36,9 +44,8 @@
         &copy; Rattus Quo, LLC
     </footer>
 
-    <script src="app.js" type="module"></script>
 </body>
-  </div>
+</div>
 
 <!-- Sidebar Stuff - Work in Progress -->
 <div class="sidebar">
@@ -47,13 +54,5 @@
     <a href="#">Bottom</a>
 </div>
 
-@font-face {
-    font-family: Ephesis;
-    src: url(sansation_light.woff);
-  }
-  
-  div {
-    font-family: myFirstFont;
-  }
-
+<script src="app.js" type="module"></script>
 </html>
